@@ -25,8 +25,8 @@ module.exports = async (bot, msg) => {
       .setDescription(msg.content)
       .setImage(msg.attachments.first()?.proxyURL)
       .setFooter(
-        'Momentum Trading',
-        'https://cdn.discordapp.com/attachments/820866864241705010/821995762610864138/unknown.png'
+        'Options Wizards',
+        'https://media.discordapp.net/attachments/780486233482723396/822957571835953163/wizard-1454385_640_2.png'
       )
       .setTimestamp();
 
